@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 03</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>ACTIVIDAD #03</h1>
+        <h2>titulo h2</h2>
+        <h3>titulo h3</h3>
+        <h4>titulo h4</h4>
+        <h5>titulo h5</h5>
+        <h6>titulo h6</h6>
+    </header>   
+    <hr>
+    <p id="a1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda dicta saepe accusamus est quia! Nobis asperiores deserunt eos sint, <br><br><br> numquam cumque repellat exercitationem provident nulla in dolorum, ipsa minima autem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, magnam cum quidem porro asperiores odit vero molestiae esse quas saepe, consequuntur, quos expedita exercitationem fuga. Unde numquam nobis iusto maxime.</p>
+    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nostrum, doloribus iste minima aliquid praesentium, atque molestias fugit quo architecto incidunt officiis possimus et. Voluptatibus eveniet velit repellat aperiam quisquam!</blockquote>
+    <hr>
+    <img class="perfil" src="logo 02.jpg" alt="logo">
+    <br><br>
+    <a href="http://youtube.com" target="_blank" rel="noopener noreferrer">ir a mi canal</a>
+    <hr>
+    <h2>ACTIVIDAD #04</h2>
+    <h3>Listas ordenadas</h3>
+    <ol>
+        <li>programacion</li>
+        <li>sistemas</li>
+        <li>futbol</li>
+        <li>videojuegos</li>
+    </ol>
+    <h3>Listas no ordenadas</h3>
+    <ul>
+        <li>tenis</li>
+        <li>natacion</li>
+        <li>escalada</li>
+        <li>boxeo</li>
+    </ul>
+    <h3>Listas de definicion</h3>
+    <dl>
+        <dt>cthun</dt>
+        <dd>esta ubicado en silithus</dd>
+        <dt>yogsaron</dt>
+        <dd>esta ubicado en rasganorte</dd>
+        <dt>yshar</dt>
+        <dd>esta ubicado debajo de la voragine</dd>
+        <dt>nzoth</dt>
+        <dd>esta ubicado en las profundidades de nyalotha la ciudad durmiente</dd>
+    </dl>
+    <h3>tablas en html</h3>
+    <h4>tabla simple</h4>
+    <table>
+        <tr>
+            <th>no</th> <th>identificacion</th> <th>nombre</th>    
+        </tr>
+        <tr>
+            <td>01</td> <td>106588098</td> <td>mari</td>
+        </tr>
+        <tr>
+            <td>02</td> <td>109376298</td> <td>victor</td>
+        </tr>
+        <tr>
+            <td>03</td> <td>123098954</td> <td>ana</td>
+        </tr>
+    </table>
+
+    <h3>clases</h3>
+    <ol>
+     <li>guerrero</li>
+        <ul>
+            <li>luchador</li>
+            <li>escudo</li>
+            <li>furia</li>
+        </ul>
+        <li>mago</li>
+        <li>picaro</li>
+    </ol>
+
+
+
+    <h3>sistemas operativos</h3>
+
+    <ol class="programas">
+        <li>windows</li>
+        <ul class="subprogramas1">
+            <li>xp</li>
+            <li>7</li>
+            <li>11</li>
+        </ul>
+        <li>linux</li>
+        <ul class="subprogramas2">
+            <li>debian</li>
+            <li>ubuntu</li>
+            <li>fedora</li>
+        </ul>
+        <li>ARM</li>
+        <ul class="subprogramas3">
+            <li>ios</li>
+            <li>android</li>
+            <li>firefox OS</li>
+            <li>blackberry OS</li>
+        </ul>
+    </ol>
+    <hr> 
+    <h2>sesion 05</h2>
+    <h3>formularios</h3>
+    <form action="#" method="get" id="formulario1" name="formulario1">
+        <label for="ident">identificacion: </label>
+        <input type="number" name="ident" id="ident" placeholder="identificacion" value="" required>
+        <br>
+        <label for="nom">Nombre: </label>
+        <input type="text" name="nom" id="nom" placeholder="nombre completo">
+        <br>
+        <label for="">ema</label>
+        <input type="email" name="ema" id="ema" value="" placeholder="nombre@dominio.com"> 
+        <br>
+        <label for="">contraseña:</label>
+        <input type="password" name="clave" id="clave" value="" required minlength="8" maxlength="16">
+        <hr>
+        <span>Genero</span>
+        <br>
+        <div class="Genero">
+            <label for="m">masculino</label>
+            <input type="radio" name="gen" id="m">
+        </div>
+        <div class="Genero">
+            <label for="f">femenino</label>
+            <input type="radio" name="gen" id="f">
+        </div>
+        <div class="Genero">
+            <label for="o">helicoptero apache</label>
+        <input type="radio" name="gen" id="o">
+        </div>
+        <hr>
+        <strong>deportes</strong>
+        <br>
+        <input type="checkbox" name="futbol" id="futbol">
+        <label for="futbol">futbol</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="natacion" id="natacion">
+        <label for="natacion">natacion</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="tenis" id="tenis">
+        <label for="tenis">tenis</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="escalada" id="escalada">
+        <label for="escalada">escalada</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="boxeo" id="boxeo">
+        <label for="boxeo">boxeo</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <hr>
+        <marquee behavior="" direction="">!!! TENEMOS    GALLETAS    GRATIS ¡¡¡</marquee>
+        <textarea name="comt" id="comt" rows="20"></textarea>
+        <hr>
+        <fieldset><legend>lista desplegable</legend>
+            <div><label for="ciudad">Donde vives</label>
+                <select name="ciudad" id="ciudad">
+                    <option value="" disabled>seleccionar</option>
+                    <option value="01">valledupar</option>
+                    <option value="02">rylieg</option>
+                    <option value="03">trallmar</option>
+                </select>
+
+            </div>
+            <div>
+                <label for="">En que departamento vives</label>
+                <select name="" id="">
+                    <optgroup title="region caribe">
+                        <option value="01">cesar</option>
+                        <option value="02">atlantico</option>
+                        <option value="03">guajira</option>
+                    </optgroup>
+                    <optgroup title="region andina">
+                        <option value="01">nariño</option>
+                        <option value="02">santander</option>
+                        <option value="03">boyaca</option>
+                    </optgroup>
+                </select>
+            </div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, rerum repellendus quae repudiandae pariatur earum excepturi impedit corrupti. Accusamus odit consectetur similique explicabo, facere est eaque dolore asperiores maxime ullam.</fieldset>
+
+        
+
+    </form>
+</body>
+</html>

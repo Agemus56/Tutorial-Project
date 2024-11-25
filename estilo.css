@@ -1,0 +1,31 @@
+/*estilos para el body*/
+
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: grey;}
+
+header{background-color: blueviolet;}
+
+p {font-weight: bold;}
+
+#a1{background-color: orange;}
+
+.perfil{width: 25%; border: 5px solid red; border-radius: 30%;}
+
+/*estilos de las secion 4*/
+ul {list-style-type: georgian;}
+
+ol {list-style-type: upper-latin;}
+
+.programas {list-style-type: decimal;}
+.subprogramas1 {list-style-type: circle;}
+.subprogramas2 {list-style-type: upper-roman;}
+.subprogramas3 {list-style-type: lower-latin;}
+
+table {padding: 40px;}
+    td,th{border: 2px solid red; background-color: black; color: green;}
+
+    /*estilos sesion 05*/
+    .Genero{display: inline;
+    margin: auto 10px;}
+
+    /*div>select>optg*2>option*3*/
+    
