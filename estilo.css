@@ -28,4 +28,12 @@ table {padding: 40px;}
     margin: auto 10px;}
 
     /*div>select>optg*2>option*3*/
-    
+
+    input[type="text"],
+    input[type="number"],
+    input[type="password"],
+    input[type="email"], 
+    textarea,
+    select
+    {width: 70%; border-radius: 5px; padding: 15px auto;}
+    select{width: 100%;}
